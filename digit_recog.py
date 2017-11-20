@@ -9,8 +9,8 @@ from keras.optimizers import RMSprop
 import matplotlib.pyplot as plt
 
 # Load the data
-train = pd.read_csv("C:/Users/risha/Downloads/train.csv")
-test = pd.read_csv("C:/Users/risha/Downloads/test.csv")
+train = pd.read_csv("C:/path/train.csv")
+test = pd.read_csv("C:/path/test.csv")
 
 Y_train = train["label"]    #store result in answer
 
